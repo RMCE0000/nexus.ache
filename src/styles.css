@@ -1,0 +1,271 @@
+:root {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #e9efff;
+  background: #050816;
+  --bg: #050816;
+  --panel: #0d1532;
+  --panel-soft: #121c42;
+  --text: #e9efff;
+  --muted: #9db0e6;
+  --brand: #67b4ff;
+  --brand-strong: #2b8fff;
+  --border: #253663;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background: radial-gradient(1200px 600px at 20% -10%, #1a2f73 0%, var(--bg) 55%);
+  color: var(--text);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: min(1120px, 92vw);
+  margin: 0 auto;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(8px);
+  background: color-mix(in srgb, #050816 82%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--border) 60%, transparent);
+  z-index: 10;
+}
+
+.nav-shell {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 4rem;
+}
+
+.brand {
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.main-nav {
+  display: flex;
+  gap: 1.2rem;
+  font-size: 0.94rem;
+  color: var(--muted);
+}
+
+.main-nav a:hover {
+  color: var(--text);
+}
+
+.hero {
+  padding: 5.2rem 0 3.2rem;
+}
+
+.hero-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1.3fr 1fr;
+}
+
+.eyebrow {
+  color: var(--brand);
+  font-weight: 600;
+  margin: 0 0 0.8rem;
+  letter-spacing: 0.03em;
+}
+
+h1 {
+  font-size: clamp(2rem, 3.6vw, 3.3rem);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.hero-copy {
+  color: var(--muted);
+  font-size: 1.08rem;
+  max-width: 60ch;
+  margin: 1.2rem 0 1.8rem;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.72rem 1rem;
+  border-radius: 0.7rem;
+  border: 1px solid transparent;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--brand), var(--brand-strong));
+  color: #031027;
+}
+
+.btn-secondary {
+  border-color: var(--border);
+  color: var(--text);
+  background: color-mix(in srgb, var(--panel) 70%, transparent);
+}
+
+.hero-panel {
+  border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--panel) 90%, transparent);
+  border-radius: 1rem;
+  padding: 1.3rem;
+}
+
+.hero-panel h2 {
+  margin: 0 0 0.8rem;
+  font-size: 1.1rem;
+}
+
+.hero-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.8rem;
+  color: var(--muted);
+}
+
+.hero-panel li {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.hero-panel span {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  font-size: 0.78rem;
+  background: color-mix(in srgb, var(--brand) 24%, var(--panel) 76%);
+  color: var(--brand);
+}
+
+.section {
+  padding: 2.4rem 0;
+}
+
+.section-alt {
+  background: color-mix(in srgb, var(--panel-soft) 60%, transparent);
+  border-block: 1px solid color-mix(in srgb, var(--border) 65%, transparent);
+}
+
+h2 {
+  margin: 0;
+  font-size: clamp(1.45rem, 2.8vw, 2rem);
+}
+
+.section-copy {
+  color: var(--muted);
+  max-width: 70ch;
+  margin: 0.9rem 0 0;
+}
+
+.card-grid {
+  margin-top: 1.3rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.card {
+  border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--panel) 84%, transparent);
+  border-radius: 0.9rem;
+  padding: 1rem;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card p {
+  color: var(--muted);
+}
+
+.card a {
+  color: var(--brand);
+  font-weight: 600;
+}
+
+.operations-shell {
+  display: grid;
+  gap: 1.3rem;
+  align-items: center;
+  grid-template-columns: 1.2fr 1fr;
+}
+
+.pill-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.pill-list li {
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--panel-soft) 70%, transparent);
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.site-footer {
+  border-top: 1px solid color-mix(in srgb, var(--border) 65%, transparent);
+  padding: 1.5rem 0 2rem;
+}
+
+.footer-shell {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.footer-shell a {
+  color: var(--brand);
+}
+
+@media (max-width: 900px) {
+  .hero-grid,
+  .card-grid,
+  .operations-shell {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .main-nav {
+    display: none;
+  }
+}
