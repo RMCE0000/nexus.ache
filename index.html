@@ -6,33 +6,34 @@
     <title>Sadie ACBE | Company Banking</title>
     <meta
       name="description"
-      content="Sadie ACBE is company banking built for modern teams who need speed, trust, and clarity."
+      content="Sadie ACBE is integrated company banking for modern operators."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="page-bg"></div>
     <header class="site-header">
-      <div class="container header-inner">
+      <div class="container header-shell">
         <a class="brand" href="#">
           <img
             class="brand-logo"
-            src="assets/logo-boykin-realistic.png"
-            alt="Sadie ACBE Boykin Spaniel logo"
+            src="assets/logo-boykin-sleek.svg"
+            alt="Sadie ACBE cartoon Boykin spaniel logo"
           />
           <div>
             <p class="brand-name">Sadie ACBE</p>
-            <p class="brand-tagline">Company Banking, Everything Included.</p>
+            <p class="brand-tagline">Company Banking. Seamlessly Integrated.</p>
           </div>
         </a>
         <nav class="site-nav" aria-label="Main navigation">
-          <a href="#products">Products</a>
-          <a href="#why-sadie">Why Sadie</a>
+          <a href="#platform">Platform</a>
+          <a href="#advantages">Advantages</a>
           <a href="#contact">Contact</a>
         </nav>
       </div>
@@ -40,96 +41,107 @@
 
     <main>
       <section class="hero">
-        <div class="container hero-grid">
-          <div>
-            <p class="eyebrow">Simple Financial Infrastructure</p>
-            <h1>Banking your business can trust.</h1>
-            <p class="hero-copy">
-              Sadie ACBE brings accounts, payments, cards, and cash visibility into
-              one clean platform designed for growing companies.
+        <div class="container hero-shell">
+          <div class="hero-copy">
+            <p class="eyebrow">Built for connected finance teams</p>
+            <h1>Sleek company banking from card swipe to close.</h1>
+            <p>
+              Sadie ACBE unifies treasury, spend controls, payouts, and reporting in
+              one intelligent flow. No fragmentation. No friction.
             </p>
             <div class="cta-row">
-              <a class="btn btn-primary" href="#contact">Get Started</a>
-              <a class="btn btn-secondary" href="#products">View Platform</a>
+              <a class="btn btn-primary" href="#contact">Request Access</a>
+              <a class="btn btn-ghost" href="#platform">Explore Platform</a>
             </div>
           </div>
-          <aside class="hero-panel" aria-label="Platform highlights">
-            <h2>Launch with confidence</h2>
-            <ul>
-              <li>Multi-user company wallets</li>
-              <li>Real-time transaction controls</li>
-              <li>Smart automation for approvals</li>
-              <li>Built-in spend and treasury reporting</li>
-            </ul>
+
+          <aside class="hero-brand-panel" aria-label="Sadie mascot and highlights">
+            <img
+              class="mascot-logo"
+              src="assets/logo-boykin-sleek.svg"
+              alt=""
+              aria-hidden="true"
+            />
+            <div class="hero-badges">
+              <p>Single dashboard</p>
+              <p>Real-time policy controls</p>
+              <p>Green + Gold trust system</p>
+            </div>
           </aside>
         </div>
       </section>
 
-      <section id="products" class="section">
+      <section id="platform" class="section">
         <div class="container">
-          <h2>Everything your finance team needs</h2>
-          <div class="card-grid">
-            <article class="card">
-              <h3>Operational Accounts</h3>
+          <div class="section-heading">
+            <p class="eyebrow">Integrated Capabilities</p>
+            <h2>One platform. Every banking motion.</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Accounts + Treasury</h3>
               <p>
-                Open and organize business accounts for payroll, operations, and
-                reserves in minutes.
+                Organize balances by entity, reserve, or operating lane with live
+                cash visibility.
               </p>
             </article>
-            <article class="card">
-              <h3>Global Payments</h3>
+            <article class="feature-card">
+              <h3>Payments + Approvals</h3>
               <p>
-                Send domestic and international payouts with transparent fees and
-                predictable timelines.
+                Route invoices through policy-based approval chains before release.
               </p>
             </article>
-            <article class="card">
-              <h3>Corporate Cards</h3>
+            <article class="feature-card">
+              <h3>Cards + Spend Rules</h3>
               <p>
-                Issue physical and virtual cards with custom limits and policy-based
+                Issue virtual or physical cards with merchant, amount, and team-level
                 controls.
+              </p>
+            </article>
+            <article class="feature-card">
+              <h3>Automation + Reconciliation</h3>
+              <p>
+                Keep books clean with auto-categorization and timeline-level audit
+                trails.
               </p>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="why-sadie" class="section section-alt">
-        <div class="container split">
-          <div>
-            <h2>Built for clarity and control</h2>
-            <p>
-              The Sadie ACBE experience is inspired by the Boykin spaniel:
-              attentive, dependable, and always ready to work.
-            </p>
+      <section id="advantages" class="section">
+        <div class="container advantage-shell">
+          <div class="section-heading">
+            <p class="eyebrow">Why Sadie ACBE</p>
+            <h2>Designed to feel seamless at every touchpoint.</h2>
           </div>
-          <div class="stats-grid" aria-label="Business impact metrics">
-            <div class="stat">
-              <p class="stat-value">99.9%</p>
-              <p class="stat-label">Platform uptime target</p>
-            </div>
-            <div class="stat">
+          <div class="stats-grid" aria-label="Key performance indicators">
+            <div class="stat-card">
               <p class="stat-value">&lt; 10 min</p>
-              <p class="stat-label">Average account setup</p>
+              <p class="stat-label">Operational setup</p>
             </div>
-            <div class="stat">
+            <div class="stat-card">
+              <p class="stat-value">99.9%</p>
+              <p class="stat-label">Target platform uptime</p>
+            </div>
+            <div class="stat-card">
               <p class="stat-value">24/7</p>
-              <p class="stat-label">Dedicated support coverage</p>
+              <p class="stat-label">Support availability</p>
             </div>
-            <div class="stat">
-              <p class="stat-value">1 dashboard</p>
-              <p class="stat-label">Across cards, cash, and payments</p>
+            <div class="stat-card">
+              <p class="stat-value">1 source</p>
+              <p class="stat-label">Of truth for finance operations</p>
             </div>
           </div>
         </div>
       </section>
 
       <section id="contact" class="section">
-        <div class="container contact">
-          <h2>Start your setup</h2>
+        <div class="container contact-shell">
+          <h2>Launch with Sadie ACBE</h2>
           <p>
-            Ready to build your company banking stack with Sadie ACBE? We will help
-            you launch fast.
+            Bring your teams onto one sleek, reliable banking environment that moves
+            as fast as your company.
           </p>
           <a class="btn btn-primary" href="mailto:hello@sadieacbe.com">
             hello@sadieacbe.com
@@ -140,7 +152,7 @@
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <p>&copy; <span id="year"></span> Sadie ACBE. All rights reserved.</p>
+        <p>&copy; <span id="year"></span> Sadie ACBE. Company Banking Everything.</p>
       </div>
     </footer>
 

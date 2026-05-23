@@ -1,0 +1,93 @@
+<svg
+  width="240"
+  height="240"
+  viewBox="0 0 240 240"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Sadie ACBE Boykin Spaniel Emblem</title>
+  <desc id="desc">
+    Sleek cartoon-style Boykin spaniel head inside a green and gold crest.
+  </desc>
+
+  <defs>
+    <linearGradient id="ringOuter" x1="34" y1="24" x2="206" y2="216" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E5C56D" />
+      <stop offset="1" stop-color="#B1842A" />
+    </linearGradient>
+    <linearGradient id="ringInner" x1="54" y1="44" x2="190" y2="198" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1E654F" />
+      <stop offset="1" stop-color="#0A3328" />
+    </linearGradient>
+    <linearGradient id="furMain" x1="85" y1="84" x2="170" y2="173" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8E5A3D" />
+      <stop offset="1" stop-color="#573523" />
+    </linearGradient>
+    <linearGradient id="furLight" x1="83" y1="108" x2="150" y2="165" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#AA7250" />
+      <stop offset="1" stop-color="#7A4A33" />
+    </linearGradient>
+    <linearGradient id="furEar" x1="48" y1="102" x2="106" y2="177" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7A4A31" />
+      <stop offset="1" stop-color="#4A2A1D" />
+    </linearGradient>
+    <filter id="drop" x="20" y="22" width="200" height="204" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dy="5" />
+      <feGaussianBlur stdDeviation="4" />
+      <feColorMatrix
+        type="matrix"
+        values="0 0 0 0 0.03 0 0 0 0 0.09 0 0 0 0 0.07 0 0 0 0.42 0"
+      />
+      <feBlend mode="normal" in2="SourceGraphic" result="shape" />
+    </filter>
+  </defs>
+
+  <g filter="url(#drop)">
+    <circle cx="120" cy="120" r="100" fill="url(#ringOuter)" />
+    <circle cx="120" cy="120" r="84" fill="url(#ringInner)" />
+    <circle cx="120" cy="120" r="80" fill="#103D30" stroke="#E5C56D" stroke-opacity="0.5" stroke-width="2" />
+
+    <path
+      d="M75.5 170.5C65.9 166.4 58.8 159 54.5 149.4C50.1 139.8 49.7 129 53.2 119.2C56.7 109.5 63.9 101.3 73.2 96.2C82.6 91 93.5 89.1 104.2 90.8C114.8 92.4 124.8 97.5 131.9 105.1C139 112.7 142.9 122.4 143.2 132.5C143.5 142.6 140.2 152.7 133.8 160.6C127.4 168.4 118.1 173.4 107.9 174.9C97.7 176.4 86 174.9 75.5 170.5Z"
+      fill="url(#furMain)"
+    />
+    <path
+      d="M64.5 153.6C58.6 141.6 58.9 128.4 65.4 116.5C72 104.5 84.1 96.8 97.5 96.1C110.9 95.4 123.8 101.8 131.5 112.9C139.2 124 140.3 138.5 134.4 150.5C127.9 163.7 114.2 172.2 99.7 171.9C85.2 171.6 71 165.6 64.5 153.6Z"
+      fill="url(#furLight)"
+    />
+    <path
+      d="M65.8 99.8C56.1 104.6 48.9 113.6 46.4 123.9C44 134.3 46.3 145.4 52.9 154.2C59.5 163 69.9 168.8 80.9 170.2C74.3 164.2 69.9 156.7 67.9 148.3C66 139.9 66.4 130.9 69.2 122.8C72 114.8 77.2 107.6 84.2 102.1C91.2 96.5 99.6 92.9 108.7 91.8C95.6 89.5 79.8 92.9 65.8 99.8Z"
+      fill="url(#furEar)"
+    />
+    <path
+      d="M117 160.7C127.9 156.4 136.6 147.4 140.6 136.4C144.6 125.3 143.5 112.8 137.5 102.6C131.5 92.4 121.2 85.1 109.2 82.8C97.2 80.5 84 83.3 74 90.5C82.8 90.9 91.3 93.7 98.5 98.6C105.7 103.4 111.3 110 114.8 117.5C118.2 125 119.4 133.4 118.3 141.5C117.2 149.5 113.8 157.6 108.4 164.3C111.3 163.9 114.2 162.9 117 160.7Z"
+      fill="#693F2C"
+      fill-opacity="0.82"
+    />
+    <path
+      d="M115.8 118.9C117.3 116.5 120.2 114.8 123.4 114.8C126.7 114.8 129.4 116.5 130.6 119C131.8 121.5 131.4 124.4 129.3 126.4C127.2 128.4 124 129.2 121 128.3C118.1 127.4 116 124.9 115.7 122.1C115.5 121 115.5 119.9 115.8 118.9Z"
+      fill="#102018"
+    />
+    <circle cx="124.4" cy="120.1" r="2.2" fill="#F5EEE1" />
+    <path
+      d="M126.9 140.6C124.1 145.5 119.1 148.9 113.5 150C107.8 151.2 101.9 149.9 97.5 146.4C95.3 144.7 94.2 141.8 94.8 139C95.3 136.2 97.4 133.9 100.2 132.9C103.8 131.7 107.8 132.3 111 134.6C113.8 136.7 116.6 136.9 120 135.1C121.9 134.1 124.1 133.9 126.2 134.5C128.3 135.1 130 136.6 130.7 138.5C131.3 140.2 130.2 141.5 126.9 140.6Z"
+      fill="#2F1D16"
+    />
+    <path
+      d="M96.5 110.6C101 107.2 106.8 105.6 112.4 106.1"
+      stroke="#C99368"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-opacity="0.7"
+    />
+    <path
+      d="M80.5 177.2C92.5 181.1 106.1 180.5 117.7 175.4"
+      stroke="#E5C56D"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-opacity="0.75"
+    />
+  </g>
+</svg>
