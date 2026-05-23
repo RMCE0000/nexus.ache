@@ -1,14 +1,14 @@
 # Sadie ACBE Starter Website
 
 Simple branded landing page for **Sadie ACBE** with a sleek green-and-gold design
-system and a photo-processed illustrated Boykin spaniel logo.
+system and a vector-traced Boykin spaniel logo generated from contour extraction.
 
 ## Project Structure
 
 - `index.html` - main page markup
 - `styles.css` - full site styling and theme colors
 - `script.js` - small client-side enhancement (dynamic footer year)
-- `assets/logo-boykin-processed.png` - integrated Boykin logo mark
+- `assets/logo-boykin-contour.svg` - integrated Boykin logo mark
 
 ## Run Locally
 
