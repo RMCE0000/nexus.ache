@@ -14,3 +14,9 @@ python3 -m http.server 8080
 ```
 
 Then visit `http://localhost:8080`.
+
+## Demo preview
+
+Current landing page screenshot:
+
+![Omega ACKE landing page demo](./omega-acke-demo.png)
