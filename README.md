@@ -1,7 +1,7 @@
 # Sadie ACBE Starter Website
 
 Simple branded landing page for **Sadie ACBE** with a sleek green-and-gold design
-system and a polished cartoon-style Boykin spaniel logo.
+system and a polished illustrated Boykin spaniel logo.
 
 ## Project Structure
 

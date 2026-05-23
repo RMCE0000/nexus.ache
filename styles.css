@@ -220,10 +220,11 @@ a {
   gap: 1rem;
 }
 
-.mascot-logo {
-  width: min(250px, 82%);
+.brand-panel-logo {
+  width: min(198px, 62%);
   margin: 0 auto;
-  filter: drop-shadow(0 16px 20px rgba(0, 0, 0, 0.28));
+  filter: drop-shadow(0 10px 14px rgba(0, 0, 0, 0.24));
+  opacity: 0.96;
 }
 
 .hero-badges {
